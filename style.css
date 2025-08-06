@@ -1,0 +1,52 @@
+.hero-section {
+  /* Add your styles here */
+  color: white;
+  font-size: 18px;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(RESTAURANT\ 4.jpg); /* Restaurant background with overlay */
+  background-size: cover;      /* Makes the image cover the element */
+  background-position: center; /* Centers the image */
+  height: 100vh;               /* Full viewport height */
+  border-radius: 0;            /* No rounded corners for full coverage */
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3); /* Adds a shadow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Hero Section Background */
+.hero-section {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(RESTAURANT\ 4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+/* Menu Section Background */
+#menu {
+  background-image: linear-gradient(rgba(255,255,255,0.9), rgba(255,255,255,0.9)), url('sushi.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 80px 0;
+}
+
+/* Card hover effects */
+.menu-item .card {
+    margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+  }
+#SEND{
+  color: rgb(232, 220, 220);
+  background-color: rgb(107, 10, 10);
+  border-radius: 50PX;
+  border-color: brown;
+}
